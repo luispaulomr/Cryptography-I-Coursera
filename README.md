@@ -15,3 +15,8 @@ Given that all messages are in ASCII format, with readable characters encrypted 
 
 
 Basic usage of PyCrypto for AES CBC and CTR modes.
+
+## Assignment 3:
+
+
+Use of SHA256 for hashing file chunks.
