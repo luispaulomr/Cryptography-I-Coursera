@@ -19,4 +19,19 @@ Basic usage of PyCrypto for AES CBC and CTR modes.
 ## Assignment 3:
 
 
-Use of SHA256 for hashing file chunks.
+Use of PyCrypto SHA256 for hashing file chunks.
+
+## Assignment 4:
+
+
+Demonstration of a padding oracle attack against an AES CBC encryption with random IV.
+
+The padding oracle attack consists of obtaining bytes of a CT by querying the server about the padding validity of the ciphertext.
+
+The ciphertext has a 16-byte IV and a 48-bytes playload. In CBC encryption the payload is encrypted 16-bytes at a time. My approach was the following:
+
+1. Send c[0] and c[1] with modified c[0] to get m[1];
+2. Send c[0], c[1] and c[2] with modified c[1] to get m[2];
+3. send c[0] and IV with modified IV to get m[0].
+
+![Pic](https://i.imgur.com/zL6Efxu.png)
