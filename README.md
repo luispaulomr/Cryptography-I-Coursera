@@ -35,3 +35,8 @@ The ciphertext has a 16-byte IV and a 48-bytes playload. In CBC encryption the p
 3. send c[0] and IV with modified IV to get m[0].
 
 ![Pic](https://i.imgur.com/zL6Efxu.png)
+
+## Assignment 5:
+
+
+Computation of discrete log modulo a prime *p*. The formula <img src="https://render.githubusercontent.com/render/math?math=h = g^x"> was solved by using [gmpy2](https://gmpy2.readthedocs.io/en/latest/mpz.html#mpz-methods) and modular arithmetic.
