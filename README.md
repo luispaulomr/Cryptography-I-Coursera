@@ -2,7 +2,7 @@
 
 [https://www.coursera.org/learn/crypto]()
 
-## Assignment 1:
+## Assignment 1: [Many Time Pad](https://github.com/luispaulomr/Cryptography-I-Coursera/tree/main/assignment_1)
 
 
 Given that all messages are in ASCII format, with readable characters encrypted with the same OTP key, my approach was:
@@ -11,17 +11,17 @@ Given that all messages are in ASCII format, with readable characters encrypted 
 2. Create a list for every character in C containing all possible characters combinations that could generate this character;
 3. For each list of these lists, get the character which appears the most.
 
-## Assignment 2:
+## Assignment 2: [AES Modes](https://github.com/luispaulomr/Cryptography-I-Coursera/tree/main/assignment_2)
 
 
 Basic usage of PyCrypto for AES CBC and CTR modes.
 
-## Assignment 3:
+## Assignment 3: [Hashing](https://github.com/luispaulomr/Cryptography-I-Coursera/tree/main/assignment_3)
 
 
 Use of PyCrypto SHA256 for hashing file chunks.
 
-## Assignment 4:
+## Assignment 4: [Padding Oracle Attack](https://github.com/luispaulomr/Cryptography-I-Coursera/tree/main/assignment_4)
 
 
 Demonstration of a padding oracle attack against an AES CBC encryption with random IV.
@@ -36,7 +36,7 @@ The ciphertext has a 16-byte IV and a 48-bytes playload. In CBC encryption the p
 
 ![Pic](https://i.imgur.com/zL6Efxu.png)
 
-## Assignment 5:
+## Assignment 5: [Discrete Log](https://github.com/luispaulomr/Cryptography-I-Coursera/tree/main/assignment_5)
 
 
 Computation of discrete log modulo a prime *p*. The formula <img src="https://render.githubusercontent.com/render/math?math=h = g^x"> was solved by using [gmpy2](https://gmpy2.readthedocs.io/en/latest/mpz.html#mpz-methods) and modular arithmetic.
